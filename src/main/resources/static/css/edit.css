@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.body-content {
+	width: 30%;
+	margin: 3em auto;
+	border: 1px solid grey;
+	border-radius: 3px;
+	padding: 3em;
+}
+
+.btn {
+	display: flex; 
+	margin: 0 auto;
+}
+
+h1 {
+	margin-bottom: 1em;
+}
+
+.form-input {
+	width: 80%;
+	float: right;
+}
+
+nav {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 30em;
+	margin: 3em auto;
+}
+
+.delete-btn {
+	display: flex;
+}

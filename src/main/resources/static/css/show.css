@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#container {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid grey;
+	border-radius: 3px;
+	padding: 3em;
+	width: 30em;
+}
+
+.links {
+	display: flex;
+	justify-content: space-between;
+}
+
+.dashboard-link {
+	position: relative;
+	display: flex;
+	width: 30em;
+	margin: 10em auto;
+	justify-content: center;
+}

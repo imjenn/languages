@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+	width: 50%;
+	margin: 0 auto;
+}
+
+h1 {
+	margin: 1em 0;
+}
+
+.form-body {
+	margin-top: 5em;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+	padding: 3em;
+}
+
+.btn {
+	display: flex;
+	margin: 0 auto;
+}
+
+.table-actions {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.delete-btn {
+	display: flex;
+}
